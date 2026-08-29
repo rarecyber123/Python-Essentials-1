@@ -15,4 +15,24 @@
 
   ---
 
-  
+ # Python Flavors (Implementations):
+
+- ### CPython:
+
+ Standard aur default implementation jo "C" language mein likhi gayi hai.
+
+- ### Cython:
+
+   Python code ko "C" mein convert karti hai taake execution speed fast ho sake.
+
+- ### Jython:
+
+  Java environment ke sath integrate karne ke liye banai gayi hai.
+
+- ### PyPy:
+
+  Python ke andar likhi gayi Python hai, jo testing aur fast execution ke liye use hoti hai.
+
+  ---
+
+MicroPython / CircuitPython: Small microcontrollers aur hardware ke liye optimize ki gayi hai.
