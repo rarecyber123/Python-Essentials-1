@@ -20,3 +20,17 @@ Computer khud se koi kam nahi ker sakta , computer se kam kerwany k liye hum ins
 - Semantics: Baat ka koi matlab ya sense nikalna.
 
   ---
+
+# High-Level Languages: 
+
+Machine language humans ke liye samajhna aur likhna kafi mushkil hota hai. Isliye hum High-Level Languages (jaise Python) use karte hain, jo human-friendly hoti hain. 
+
+Is mein likhe gaye code ko **Source Code** kaha jata hai.
+
+---
+
+| **Compilation** | **Interpretation** |
+|---|---|
+| Pura code ek hi baar mein machine language mein translate hota hai aur ek file (.exe) ban jati hai. Yeh fast chalta hai par har platform ke liye alag compile karna padta hai. | Code ko line-by-line read, check aur execute kiya jata hai. Yeh cross-platform easily chal jata hai par execution speed thodi slow hoti hai. |
+
+---
