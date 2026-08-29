@@ -33,6 +33,8 @@
 
   Python ke andar likhi gayi Python hai, jo testing aur fast execution ke liye use hoti hai.
 
-  ---
+- ### MicroPython / CircuitPython:
 
-MicroPython / CircuitPython: Small microcontrollers aur hardware ke liye optimize ki gayi hai.
+ Small microcontrollers aur hardware ke liye optimize ki gayi hai.
+
+ ---
