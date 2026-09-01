@@ -22,3 +22,11 @@ print() mai comma (,) lagakar ek se zyada arguments diye ja sakte hain, jinhe Py
   - sep: Yeh batata hai ke do arguments ke beech konsa separator hona chahiye (default space hota hai, jise aap hyphen - ya kisi aur character se replace kar sakte hain).
 
     ---
+
+- First Program: Python code can be executed directly in IDLE or an editor. The simplest program uses print("Hello, World!").
+
+- Functions in Python: Unlike math functions, Python functions can cause an effect (e.g., printing to terminal) and return a value. They can be built-in, come from modules, or be user-defined.
+
+- Arguments & Invocation: Functions require parentheses (). Passing text inside quotes passes a string argument as data rather than executable code.
+
+  ---
