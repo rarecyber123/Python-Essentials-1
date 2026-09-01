@@ -9,21 +9,21 @@
 
 # Basic Tools & IDLE:
 
-### Code likhne aur chalaane ke liye 3 zaroori tools hote hain: 
+- ### Code likhne aur chalaane ke liye 3 zaroori tools hote hain: 
 
 Editor, Console, aur Debugger.
 
-### Python ke official installation ke sath ek simple aur useful environment milta hai jise IDLE (Integrated Development and Learning Environment) kehte hain.
+- ### Python ke official installation ke sath ek simple aur useful environment milta hai jise IDLE (Integrated Development and Learning Environment) kehte hain.
 
 ---
 
 # Syntax Errors aur Troubleshooting
 
-- # Quotes aur Parentheses:
+- ## Quotes aur Parentheses:
 
    Hamesha seedhe quotation marks "" istemal karein, fancy/curved quotes Python accept nahi karta. IDLE brackets ke pairs ko highlight karta hai taake galti na ho.
 
-- # Errors ki Pehchan:
+- ## Errors ki Pehchan:
 
   - Closing bracket bhoolne par EOF (End-Of-File) error aata hai.
 
