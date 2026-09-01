@@ -30,3 +30,14 @@ print() mai comma (,) lagakar ek se zyada arguments diye ja sakte hain, jinhe Py
 - Arguments & Invocation: Functions require parentheses (). Passing text inside quotes passes a string argument as data rather than executable code.
 
   ---
+
+# Line Control & Escape Characters 
+
+- Instruction Order: Python executes instructions sequentially, one line at a time.
+
+- Empty print(): Invoking print() with no arguments simply prints a blank newline.
+
+- Newline & Escape Character (\n): The backslash \ acts as an escape character. \n inserts a newline inside a string. To print an actual backslash, you must escape it as \\.
+
+  ---
+
