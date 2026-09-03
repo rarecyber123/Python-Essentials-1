@@ -43,3 +43,14 @@
 ### 3. *, /, //, %
 
 ### 4. Low priority: Binary +, -
+
+ ---
+#  Rule:
+
+> Agar priority change karni ho ya code ko saaf rakhna ho, to hamesha Parentheses () ka istemal karein kyunki brackets ke andar ki cheez sabse pehle solve hoti hai.
+
+# Important Precaution:
+
+Python mein kisi bhi number ko Zero (0) se divide karna strict error hai!
+
+---
