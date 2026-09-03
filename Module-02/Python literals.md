@@ -14,8 +14,20 @@
 > Jin numbers mein decimal point ho unhe float kehte hain (jaise 2.5 ya 4.0). Python floating numbers ko represent karne ke liye scientific notation (3E8 yani $3 \times 10^8$) bhi support karta hai.
 
 ---
-# Strings (Text/Lafz):
+# Strings (Text/Lafz)
 
 > Text ko hum double quotes " " ya single quotes ' ' ke andar likhte hain. Agar text ke andar quotes use karne hon to backslash \ (escape character) ka istemal hota hai (jaise "I like \"Python\"").
+
+---
+# Boolean Values (True or False)
+
+Python mein logic ya truthfulness zahir karne ke liye sirf do values hoti hain:
+
+    True aur False. Inka pehla letter hamesha Capital hota hai.
+
+---
+Extra (None Literal)
+
+> None ek special literal hai jo kisi value ke na hone (absence of value) ko represent karta hai.
 
 ---
