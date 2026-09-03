@@ -27,4 +27,19 @@
    Normal aam hisab-kitab ke liye.
 
   ---
+# Unary vs. Binary Operators:
+
+- Binary: Wo operators jo do values par kaam karein (jaise 4 + 5).
+
+- Unary: Wo operator jo sirf ek value par kaam kare, jaise sign change karne ke liye minus (-4).  
   
+---
+# Operator Priorities :
+
+### 1. High priority: ** (Exponentiation)
+
+### 2. Unary +, -
+
+### 3. *, /, //, %
+
+### 4. Low priority: Binary +, -
