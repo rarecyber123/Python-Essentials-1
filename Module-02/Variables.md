@@ -17,3 +17,18 @@
 - Style guide (PEP 8) ke mutabiq lowercase words ko underscore se join karna recommended hai (e.g., total_apples).
 
   ---
+# Variables Kaise Banayein Aur Use Karein?
+
+- ### Creation & Assignment:
+
+   Variable tab banta hai jab aap use koi value assign karte hain (e.g., var = 1).
+
+- ### Usage:
+
+  Print function mai aap variable directly pass kar sakte hain (print(var)). Unassigned variable ko print karne par error aata hai.
+
+- ### Updating Value:
+
+   Variable ki value kabhi bhi change ki ja sakti hai (e.g., var = var + 1).
+
+---
