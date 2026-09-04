@@ -24,3 +24,6 @@
   Baad mai jab aap khud ya koi aur aapka code dekhega, toh samajhna bohot aasan ho jata hai.
 
   ---
+# Shortcut Trick
+
+> Code editor mai multiple lines ko ek saath comment ya uncomment karne ke liye CTRL + / (Windows) ya CMD + / (Mac) use karein.
