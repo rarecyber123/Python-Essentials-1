@@ -32,3 +32,12 @@
    Variable ki value kabhi bhi change ki ja sakti hai (e.g., var = var + 1).
 
 ---
+# Shortcut Operators
+
+Code ko chhota likhne ke liye shortcut operators use kiye jaate hain:
+
+- x = x + 1 ko x += 1 likha jata hai.
+
+- Similarly: -=, *=, /=, %= wagera.v
+
+  ---
