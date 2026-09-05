@@ -31,9 +31,7 @@ In operators ke normal math ke alawa doosre kaam bhi hain:
 
 - Do strings ko aapas mein jodne ke liye.
 
-- Example: "Hello " + "World" $\rightarrow$
-
-  ## "Hello World"
+- Example: "Hello " + "World" $\rightarrow$ ## "Hello World"
 
 - Rule: Dono sides par string honi chahiye. String + Number error dega.
 
@@ -41,8 +39,13 @@ In operators ke normal math ke alawa doosre kaam bhi hain:
 
 - Kisi string ko multiple times repeat karne ke liye.
 
-- Example: "Hi" * 3 $\rightarrow$ "HiHiHi"
+- Example: "Hi" * 3 $\rightarrow$ ## "HiHiHi"
 
-  - Rule: Ek side string aur doosri side integer hona chahiye. Agar number $\le 0$ ho to empty string milti hai.
+- Rule: Ek side string aur doosri side integer hona chahiye. Agar number $\le 0$ ho to empty string milti hai.
  
     ---
+# 4. str() Function: 
+
+- Numbers ko String BananaAgar aap kisi number ko string mein convert karna chahte hain taake use doosri strings ke sath concatenate kar sakein, to str() use hota hai.
+
+- Example: "Your total is " + str(50) $\rightarrow$ "Your total is 50"
