@@ -8,3 +8,18 @@
 - Prompt Argument: Aap input("Enter your name: ") ki tarah brackets ke andar seedha message likh sakte hain, alag se print() likhne ki zaroorat nahi hoti.
 
   ---
+# 2. Type Casting (Data Convert Karna)
+
+- Sab se Badi Baat: input() function hamesha String (str) return karta hai, chahe aap number hi kyun na type karein.
+
+- Problem: Agar aap string ko kisi mathematical operation (jaise **, /) mein use karenge, to Python TypeError dega.
+
+- Solution: String ko numbers mein convert karne ke liye ye functions use karein:
+
+- int() – Whole numbers (1, 2, 10) ke liye.
+
+- float() – Decimal numbers (1.5, 3.14) ke liye.
+
+### Example: age = int(input("Enter age: "))
+
+---
