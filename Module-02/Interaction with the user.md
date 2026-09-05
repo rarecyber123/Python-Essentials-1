@@ -23,3 +23,26 @@
 ### Example: age = int(input("Enter age: "))
 
 ---
+# 3. String Operators ( + aur + )
+
+In operators ke normal math ke alawa doosre kaam bhi hain:
+
+### Concatenation (+): 
+
+- Do strings ko aapas mein jodne ke liye.
+
+- Example: "Hello " + "World" $\rightarrow$
+
+  ## "Hello World"
+
+- Rule: Dono sides par string honi chahiye. String + Number error dega.
+
+### Replication (*):
+
+- Kisi string ko multiple times repeat karne ke liye.
+
+- Example: "Hi" * 3 $\rightarrow$ "HiHiHi"
+
+  - Rule: Ek side string aur doosri side integer hona chahiye. Agar number $\le 0$ ho to empty string milti hai.
+ 
+    ---
