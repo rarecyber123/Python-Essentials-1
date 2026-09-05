@@ -31,7 +31,7 @@ In operators ke normal math ke alawa doosre kaam bhi hain:
 
 - Do strings ko aapas mein jodne ke liye.
 
-- Example: "Hello " + "World" $\rightarrow$ ## "Hello World"
+- Example: "Hello " + "World" $\rightarrow$  "Hello World"
 
 - Rule: Dono sides par string honi chahiye. String + Number error dega.
 
@@ -39,7 +39,7 @@ In operators ke normal math ke alawa doosre kaam bhi hain:
 
 - Kisi string ko multiple times repeat karne ke liye.
 
-- Example: "Hi" * 3 $\rightarrow$ ## "HiHiHi"
+- Example: "Hi" * 3 $\rightarrow$  "HiHiHi"
 
 - Rule: Ek side string aur doosri side integer hona chahiye. Agar number $\le 0$ ho to empty string milti hai.
  
@@ -59,5 +59,14 @@ In operators ke normal math ke alawa doosre kaam bhi hain:
 - type(input()) hamesha <class 'str'> return karega.
 
 - Time duration wallay lab task ke liye modulus (%) operator hours aur minutes ki limit set karne mein kaam aata hai.
+
+  ---
+# Quick Summary 
+
+- Concatenation (+): Do strings ko aapas mein jodne ke liye + use hota hai (e.g., "Hello " + "World" → "Hello World").
+
+- Replication (*): String ko repeat karne ke liye * use hota hai (e.g., "5" * 2 → "55").
+
+- Conversion: Agar string ko number banana ho to int() ya float() mein convert (type cast) karna padta hai.
 
   ---
