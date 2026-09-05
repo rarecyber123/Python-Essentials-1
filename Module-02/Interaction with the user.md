@@ -49,3 +49,15 @@ In operators ke normal math ke alawa doosre kaam bhi hain:
 - Numbers ko String BananaAgar aap kisi number ko string mein convert karna chahte hain taake use doosri strings ke sath concatenate kar sakein, to str() use hota hai.
 
 - Example: "Your total is " + str(50) $\rightarrow$ "Your total is 50"
+
+  ---
+  
+ # Crucial Takeaways for Labs & Quizzes
+
+- x = int(input()) mein agar user 2 enter kare, to x * "5" ka result "55" hoga (chunki 2 * "5" replication hai, math multiplication nahi).
+
+- type(input()) hamesha <class 'str'> return karega.
+
+- Time duration wallay lab task ke liye modulus (%) operator hours aur minutes ki limit set karne mein kaam aata hai.
+
+  ---
