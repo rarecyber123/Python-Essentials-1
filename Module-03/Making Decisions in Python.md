@@ -65,3 +65,9 @@
             play_chess_at_home()
 
 ---
+
+# Key Takeaways
+
+Indentation (Spaces): if, elif, aur else ke baad agli line ko 4 spaces aage kerna lazmi hai.
+
+Colons (:): har condition ke aakhir mein : lagana mat bhoolain.
