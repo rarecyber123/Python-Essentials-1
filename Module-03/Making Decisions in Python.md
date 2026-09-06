@@ -23,3 +23,20 @@
 
       ---
   
+# 2. Conditional Statements
+
+> Sawaal ka jawab milne ke baad code ko batana hota hai ke aage kya karna hai.
+
+- if Statement: Agar condition True ho, tabhi andar ka code chalta hai.
+
+     if sheep_counter >= 120:
+    sleep_and_dream()
+feed_the_sheepdogs()  # Yeh bina condition ke hamesha chalega
+
+- if-else Statement: Agar condition True ho toh pehla block, warna else wala block chalta hai (Plan B).
+
+    if the_weather_is_good:
+    go_for_a_walk()
+else:
+    go_to_a_theater()
+have_lunch()  # Dono soorato mein lunch hoga
