@@ -27,7 +27,7 @@
 
 > Sawaal ka jawab milne ke baad code ko batana hota hai ke aage kya karna hai.
 
-- if Statement: Agar condition True ho, tabhi andar ka code chalta hai.
+- ### if Statement: Agar condition True ho, tabhi andar ka code chalta hai.
 
       if sheep_counter >= 120:
 
@@ -35,7 +35,7 @@
   
         feed_the_sheepdogs()  # Yeh bina condition ke hamesha chalega
 
-- if-else Statement: Agar condition True ho toh pehla block, warna else wala block chalta hai (Plan B).
+- ### if-else Statement: Agar condition True ho toh pehla block, warna else wala block chalta hai (Plan B).
 
        if the_weather_is_good:
           go_for_a_walk()
@@ -43,7 +43,7 @@
           go_to_a_theater()
       have_lunch()  # Dono soorato mein lunch hoga
 
-  - Nested if-else: Ek if ke andar doosra if lagana.
+ - ### Nested if-else: Ek if ke andar doosra if lagana.
 
          if the_weather_is_good:
           if nice_restaurant_is_found:
@@ -53,7 +53,7 @@
          else:
             go_shopping()
 
-- elif Cascade: Jab ek se ziada conditions bari-bari check karni hon.
+- ### elif Cascade: Jab ek se ziada conditions bari-bari check karni hon.
 
       if the_weather_is_good:
            go_for_a_walk()
@@ -63,3 +63,5 @@
             go_for_lunch()
       else:
             play_chess_at_home()
+
+---
