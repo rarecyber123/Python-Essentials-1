@@ -48,3 +48,15 @@ Isko terminate karne ke liye terminal/console mein Ctrl-C press karte hain (jis 
 
     # Print the largest number.
     print("The largest number is:", largest_number)
+
+---
+
+# While Loop Practical Tricks 
+
+- ### 1. Truth Value Shortcut: Python mein non-zero numbers ko True aur 0 ko False mana jata hai.
+
+    - while number != 0: ko short mein while number: likh sakte hain.
+
+    - if number % 2 == 1: ko if number % 2: likh sakte hain.
+
+- ### 2. Counter Variable: Loop ko ek specific number of times chalane ke liye counter subtract ya add karte hain.
