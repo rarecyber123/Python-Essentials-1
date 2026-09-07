@@ -60,3 +60,28 @@ Isko terminate karne ke liye terminal/console mein Ctrl-C press karte hain (jis 
     - if number % 2 == 1: ko if number % 2: likh sakte hain.
 
 - ### 2. Counter Variable: Loop ko ek specific number of times chalane ke liye counter subtract ya add karte hain.
+
+---
+
+# Looping Code with For 
+
+> Concept:
+   > Agar aapko pehle se pata ho ke loop kitni baar chalana hai (maslan exact 10 ya 100 baar), toh while se counting sambhalna thoda boring aur lengthy ho jata hai. Wahan hum for loop aur range() function ka use karte hain.
+
+- range(10): 0 se shuru karega aur 9 tak chalega (total 10 steps, upper bound include nahi hota).
+
+- range(2, 8): 2 se shuru karega aur 7 tak chalega.
+
+- pass keyword: Ek empty instruction hai jo tab use karte hain jab syntax ko body chahiye hoti hai par hume koi code nahi chalana hota.
+
+#  Example 1 (Basic range()):
+
+      for i in range(10):
+    print("The value of i is currently", i)
+
+# Example 2 (Start and Stop arguments):
+
+      for i in range(2, 8):
+    print("The value of i is currently", i)
+
+---
