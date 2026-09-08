@@ -88,10 +88,24 @@
 
 ---
 
+# The Ugly Vowel Eater (continue)
 
+> Is lab ka maksad continue statement ki practice hai. User ek word enter karta hai, program har character ko uppercase mein convert karta hai, aur agar koi vowel (A, E, I, O, U) aata hai to use skip kar deta hai.
 
+## Example Code
 
+    user_word = input("Enter a word: ").upper()
 
+    for letter in user_word:
+    if letter in "AEIOU":
+        continue # Vowel mila, to print kiye bina agle letter par jao
+    print(letter)
+
+## Example Output:
+
+Agar user "PYTHON" likhta hai, to output hoga: P, Y, T, H, N (O skip ho gaya).
+
+---
 
 
 
