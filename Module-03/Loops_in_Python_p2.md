@@ -73,3 +73,29 @@
     print(i) # Output: 1, 2, 4, 5
 
 ---
+
+# Stuck in a Loop (break)
+
+> Is lab mein ek endless loop (while True) banana hota hai jo user se baar baar word maangta hai jab tak user sahi secret word "chupacabra" enter na kar de.
+
+## Example Code
+
+    while True:
+    word = input("Secret word enter karo: ")
+    if word == "chupacabra":
+        print("You've successfully left the loop.")
+        break # Secret word milte hi infinite loop se exit!
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
