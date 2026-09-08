@@ -74,6 +74,12 @@ Isko terminate karne ke liye terminal/console mein Ctrl-C press karte hain (jis 
 
 - pass keyword: Ek empty instruction hai jo tab use karte hain jab syntax ko body chahiye hoti hai par hume koi code nahi chalana hota.
 
+      i = 0
+       while i < 100:
+      # do_something()
+        i += 1
+  
+---
 #  Example 1 (Basic range()):
 
       for i in range(10):
