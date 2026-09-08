@@ -46,8 +46,30 @@
 ### Output: 2, 4, 6, 8
 ---
 
+# break aur continue statements
 
+> Kabhi kabhi humein loop ko uski normal condition se pehle roknay ya kisi specific turn ko skip karne ki zaroorat hoti hai.
 
+- ### break (Emergency Stop):
 
+  Jaise hi break chalta hai, loop foren khatam ho jata hai aur program loop ke bahar nikal aata hai.
 
+- ### continue (Skip & Move Next):
 
+  Yeh chalay hue current step ko adha chhod kar agli iteration (turn) par chala jata hai.
+
+## Example:
+
+    # break example
+    for i in range(1, 6):
+    if i == 3:
+        break # 3 par pohnchte hi loop khatam
+    print(i) # Output: 1, 2
+
+    # continue example
+    for i in range(1, 6):
+    if i == 3:
+        continue # 3 ko skip kar do
+    print(i) # Output: 1, 2, 4, 5
+
+---
