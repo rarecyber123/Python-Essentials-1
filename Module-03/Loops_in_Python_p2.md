@@ -125,5 +125,39 @@ Agar user "PYTHON" likhta hai, to output hoga: P, Y, T, H, N (O skip ho gaya).
 
     print(user_word_without_vowels)
 
+---
+# The while loop and the else branch
 
+> Python ki ek khaas baat yeh hai ki aap while loop ke saath else block bhi jod sakte hain. Loop ka else block tabhi chalta hai jab loop ka condition False ho jaye aur loop naturally khatam ho. Agar aap loop ko break statement se zordar tarike se rokte hain, toh else part nahi chalega.
 
+    i = 1
+    while i < 5:
+        print(i)
+        i += 1
+    else:
+        print("else:", i)
+
+# Output:
+    1
+    2
+    3
+    4
+    else: 5
+---
+# The for loop and the else branch
+
+> while loop ki tarah, for loop ke saath bhi else branch bilkul waise hi kaam karta hai. Jab for loop apni saari iterations complete kar leta hai, toh else statement execute hota hai. Lekin agar break ki waja se loop beech me ruk jaye, toh else skip ho jata hai.
+
+    for i in range(5):
+        print(i)
+    else:
+        print("else:", i)
+
+# Output:
+    0
+    1
+    2
+    3
+    4
+    else: 4
+---
