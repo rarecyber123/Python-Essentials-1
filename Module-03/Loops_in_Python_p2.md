@@ -188,9 +188,24 @@ Agar user "PYTHON" likhta hai, to output hoga: P, Y, T, H, N (O skip ho gaya).
 
 - Is process ko tab tak dohrao jab tak c0 ki value 1 na ho jaye.
 
+## Task 
+> user se ek number lekar yeh sequence run karein aur total kitne steps lage, woh count karke print karein.
 
+    c0 = int(input("Enter a non-zero, non-negative integer: "))
 
+    steps = 0
 
+    while c0 != 1:
+    if c0 % 2 == 0:
+           c0 = c0 // 2
+    else:
+        c0 = 3 * c0 + 1
+    print(c0)
+    steps += 1
+
+    print("steps =", steps)
+
+---
 
 
 
