@@ -107,9 +107,23 @@ Agar user "PYTHON" likhta hai, to output hoga: P, Y, T, H, N (O skip ho gaya).
 
 ---
 
+# The Pretty Vowel Eater
 
+### Redesigning the ugly vowel eater 
+> Difference yeh hai ki har non-vowel letter ko alag-alag line par print karne ki bajaye, unhe ek hi line me jod kar ek poora word banakar print karna hai. Iske liye hum ek extra variable user_word_without_vowels use karte hain jisme khali string "" hoti hai.
 
+---
+    user_word = input("Enter a word: ")
+    user_word = user_word.upper()
 
+    user_word_without_vowels = ""
+
+    for letter in user_word:
+    if letter in ["A", "E", "I", "O", "U"]:
+        continue
+    user_word_without_vowels += letter
+
+    print(user_word_without_vowels)
 
 
 
