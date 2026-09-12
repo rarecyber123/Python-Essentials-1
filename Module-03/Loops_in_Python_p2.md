@@ -161,3 +161,42 @@ Agar user "PYTHON" likhta hai, to output hoga: P, Y, T, H, N (O skip ho gaya).
     4
     else: 4
 ---
+# Essentials of the while loop
+
+> Is lab ka target ek pyramid banani hai. Har step par pichle step se ek zyada block chahiye hote hain (1st step = 1 block, 2nd step = 2 blocks, waghaira). Program user se total available blocks poocha hai aur batata hai ki kitni poori height ki pyramid ban sakti hai.
+
+    blocks = int(input("Enter the number of blocks: "))
+
+    height = 0
+    in_current_layer = 1
+
+    while blocks >= in_current_layer:
+         blocks -= in_current_layer
+         height += 1
+         in_current_layer += 1
+
+    print("The height of the pyramid:", height)
+---
+
+# Collatz's hypothesis
+
+### Collatz hypothesis kehti hai ki kisi bhi positive integer c0 ke liye:
+
+- Agar c0 even ho, toh naya c0 = c0 / 2 karo.
+
+- Agar c0 odd ho, toh naya c0 = 3 * c0 + 1 karo.
+
+- Is process ko tab tak dohrao jab tak c0 ki value 1 na ho jaye.
+
+
+
+
+
+
+
+
+
+
+
+
+
