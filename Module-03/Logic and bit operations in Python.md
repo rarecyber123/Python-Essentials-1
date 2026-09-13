@@ -16,3 +16,48 @@
      - Example: not (var <= 0)
  
 ---
+# De Morgan’s Laws
+
+These laws help simplify inverted logical expressions:
+
+- not (p and q) == (not p) or (not q)
+
+- not (p or q) == (not p) and (not q)
+---
+
+# Bitwise Operators
+
+Bitwise operators modify individual bits of integer values (they do not work on floats).
+
+- ### & (Bitwise AND): Returns 1 only if both bits are 1.
+
+  - Example: 15 & 22 gives 6
+
+- ### | (Bitwise OR): Returns 1 if at least one bit is 1.
+
+  - Example: x = 4, y = 1 $\rightarrow$ x | y gives 5
+
+-### ^ (Bitwise XOR): Returns 1 if exactly one bit is 1 (exclusive choice).
+
+  - Example: x = 4 $\rightarrow$ x ^ 5 gives 1
+    
+- ### ~ (Bitwise NOT): Inverts all bits (bitwise complement).
+
+  - Example: ~4 gives -5 (using two's complement arithmetic)
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
