@@ -1,18 +1,18 @@
 
-## Python me logical aur bitwise operations kaise kaam karte hain, single bits ko manipulate kaise kiya jata hai, aur bit shifting kya hoti hai? 
+# Logical Operators
 
-# Computer logic
+> Logical operators evaluate whole conditions rather than individual bits. Zero is treated as False, and any non-zero value is treated as True.
 
-> Real life me hum multiple conditions ko combine karte hain, jaise: "Agar mausam accha ho aur hamare paas free time ho, tabhi ghoomne jayenge." Python me bhi complex conditions banane ke liye Logical Operators ka use hota hai.
->
+- ### and (Conjunction): Returns True only when both conditions are true.
 
-Conjunction (and): Dono conditions ka True hona zaroori hai.
+    - Example: counter > 0 and value == 100
 
-Disjunction (or): Kisi ek condition ka bhi True hona kafi hai.
+- ### or (Disjunction): Returns True if at least one condition is true.
 
-Negation (not): Result ko ulat deta hai (True ko False aur False ko True).
+    - Example: (x == y) or not (x == y)
 
-    # and Example (Dono True hone chahiye)
-counter = 5
-value = 100
-print(counter > 0 and value == 100)  # Output: True
+- ### not (Unary Negation): Flips True to False and False to True.
+
+     - Example: not (var <= 0)
+ 
+---
