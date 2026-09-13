@@ -50,9 +50,11 @@ Bitwise operators modify individual bits of integer values (they do not work on 
 Shifting moves all binary digits left or right by a specified number of positions:
 
 - << (Left Shift): Shifts bits to the left, effectively multiplying by $2^{\text{bits}}$.
+
     - Example: 17 << 2 gives 68 ($17 \times 2^2$)
 
->> (Right Shift): Shifts bits to the right, effectively performing floor division by $2^{\text{bits}}$.
+- >> (Right Shift): Shifts bits to the right, effectively performing floor division by $2^{\text{bits}}$.
+
     - Example: 17 >> 1 gives 8 ($17 // 2^1$) 
 ---
 
